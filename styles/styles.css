@@ -1,0 +1,126 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+}
+
+.gradient__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  background: linear-gradient(to right, #000000, #505050);
+}
+
+.row-1 {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.row-1 img {
+  height: 100%;
+  background-color: #000000;
+}
+
+.col-md-3 {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-9 {
+  display: flex;
+  height: 100%;
+  width: 75%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+a {
+  display: flex;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #3f51b5;
+  --secondary-color: #f50057;
+  --background-color: #f5f5f5;
+}
+
+/* Usa los colores en todo el sitio */
+body {
+  background-color: white;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+button {
+  color: red;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.foods li img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.btn-primary:hover {
+  background-color: #e10050;
+}
+
+.btn-primary {
+  background-color: black;
+}
+
+img {
+  max-width: 400px !important;
+  max-height: 400px !important;
+}
+
+.card {
+  max-width: 400px;
+  max-height: 600px;
+}
+
+.row-2 {
+  height: 75vh;
+}
+
+.col-md-6 {
+  width: 50vw;
+}
+
+.row-2 img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .categories {
+    display: none;
+  }
+  .foods {
+    width: 100%;
+  }
+  .foods img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

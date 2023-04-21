@@ -6,7 +6,7 @@
   
   /* Usa los colores en todo el sitio */
   body {
-    background-color: var(--background-color);
+    background-color: white;
     font-family: 'Helvetica Neue', sans-serif;
   }
   
@@ -38,8 +38,15 @@
     max-width: 400px;
     max-height: 600px;
  }
- .navbar {
-  margin-left: auto;
+ .row-2 {
+    height: 75vh;
+ }
+.col-md-6 {
+    width: 50vw;
+}
+.row-2 img {
+    height: 100%;
+    width: 100%;
 }
 
   @media screen and (max-width: 600px) {
@@ -55,5 +62,3 @@
       width: 100%;
     }
   }
-  
-  
