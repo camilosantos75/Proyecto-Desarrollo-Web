@@ -1,0 +1,38 @@
+@media (max-width:767px) {
+    .body__container {
+      display: flex;
+      justify-content: center;
+      margin-top: 150px;
+      margin-left: 20px; 
+      margin-right: 20px;
+      text-align: justify;
+    }
+    .body__container .col-sm-12 {
+        width: 95vw;
+        height: 300px;
+        background-image: url(/assets/Imagen\ Restaurante.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    p {
+        font-size: 12px;
+      }
+  }
+  p {
+    font-family: 'Castoro', serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+  }
+  .row-2 {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+  }
+  .col-md-8 {
+    height: auto;
+    width: 60vw;
+    background-image: url(/assets/Imagen\ Restaurante.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
