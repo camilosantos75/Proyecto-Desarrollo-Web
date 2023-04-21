@@ -175,7 +175,7 @@ img {
     background-position: center;
     background-size: cover;
   }
-  p {
+  .body__container p {
     font-size: 12px;
   }
 }
