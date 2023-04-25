@@ -32,6 +32,11 @@ footer .row {
 h5 {
     font-family: 'Bebas Neue', cursive;
 }
+.social__networks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 @media (max-width:765px) {
     .footer__container {
         display: flex;

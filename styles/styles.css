@@ -84,7 +84,7 @@ header {
   .row-1 {
     height: 150px;
   }
-  .col-sm-12 {
+  .gradient__container .col-sm-12 {
     display: flex;
     justify-content: center;
     width: 100vh;
@@ -211,7 +211,6 @@ p {
 .col-md-8 {
   height: auto;
   width: 60vw;
-  background-image: url(/assets/Imagen\ Restaurante.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -231,7 +230,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: auto;
   justify-content: center;
   align-items: center;
 }
@@ -252,7 +251,19 @@ footer {
 }
 
 h5 {
+  display: flex;
   font-family: "Bebas Neue", cursive;
+  justify-content: center;
+  align-items: center;
+}
+.social__networks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30px;
+}
+i {
+  color: #fff; 
 }
 
 @media (max-width: 765px) {
